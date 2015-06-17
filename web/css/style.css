@@ -1,0 +1,265 @@
+/* 
+    Document   : default
+    Created on : August 3, 2012, 10:08:54 AM
+    Author     : Shanaka
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+iframe{
+    border: solid #D9D9D9 1px;
+}
+
+body{ margin:1px; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; font-style:normal; color:#444444;}
+.tBox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #CCC;
+    padding: 2px;
+}
+
+.selectBox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #CCC;
+    padding: 2px;
+}
+
+.btnBlue {
+    /* background-color: #007D99;*/
+    background-color: #007FD9;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+.btnBlue:hover {
+    background-color: #02667D;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.btnOrange {
+    /* background-color: #007D99;*/
+    background-color: #e67e22;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+
+.btnOrange:hover {
+    background-color: #f39c12;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.btnRed {
+    /* background-color: #007D99;*/
+    background-color: indianred;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.btnRed:hover {
+    background-color: #02667D;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.btnGray {
+    background-color: gray;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.btnGray:hover {
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.btnOptions {
+    background-color: #990014;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.btnOptions:hover {
+    background-color: #810101;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.reportTitle{
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 0px 0px 5px;
+}
+
+fieldset{padding-top: 10px; border: 1px solid #CCC; background-color: #F8F8F8;}
+
+fieldset legend{
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+}
+
+.sep_line{ background-image:url(../images/sep_line.png); height:10px; background-repeat:repeat-x; background-position:center; }
+
+.print{color: #007FD9; cursor: pointer; }
+.print:hover{color: black; cursor: pointer}
+
+table.reportTable {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    background-color: #D9D9D9;
+    border: 1px solid #ccc;
+}
+table.reportTable th {
+    padding: 5px;
+    height: 20px;
+    border:1px solid #CCC;
+    text-align:center;
+    font-size: 11px;
+    font-weight:bold;
+    color:#ffffff;
+    background-color:#2BBC61;
+}
+table.reportTable td {
+    border: 1px solid #CCC;
+    padding: 4px;
+    color: #000;
+}
+table.reportTable .rightalign{
+    text-align: right;
+}
+table.formsTable {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border: 0px solid #000000; margin-top: 0px; margin-bottom: 0px; background-color: transparent;
+}
+
+table.formsTable td {
+    border: 0px solid #CCC;
+    padding: 4px;
+    color: #000;
+}
+
+.errorMsg {
+    color: #FF0000;   
+    font-weight: bold;
+    font-size: 11px;
+    padding: 2px;
+}
+
+.infoMsg {
+    color: #006400;    
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.formsTable th {
+    border: 1px solid #CCC;
+    padding: 5px;
+    color: #000;
+}
+
+.optionLink{color: #990014; cursor: pointer; }
+.optionLink:hover{color: black; cursor: pointer}
+
+
+.prev, .next { background-color:#2BBC61; padding:5px 10px; color:#fff; text-decoration:none; font-size: 12px;}
+.prev:hover, .next:hover { background-color:#000; text-decoration:none;}
+.prev { float:left;}
+.next { float:right;}
+#steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+#steps li {font-size:24px; float:left; padding:10px; color:#b0b1b3;}
+#steps li span {font-size:11px; display:block;}
+#steps li.current { color:#000;}
+#makeWizard { background-color:#b0232a; color:#fff; padding:5px 10px; text-decoration:none; font-size:18px;}
+#makeWizard:hover { background-color:#000;}
+
+.btnCmd {
+    background-color: #2BBC61;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.btnCmd:hover {
+    background-color: #5C5A5A;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+    text-transform: uppercase;
+}
+/*@media form*/
+.ui-growl {
+    right: 20px;
+    top: 90%;
+}
+
+.text-area{
+    width: 100%;
+    height: 400px;
+}
+
+

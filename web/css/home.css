@@ -1,0 +1,543 @@
+/*global styles*/
+@font-face{
+    font-family: Pristina;
+    src: url(../fonts/PRISTINA_0.TTF);
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.content *{
+    /*    margin: 0;
+        padding: 0;*/
+}
+.content .fill{
+    margin: 5px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.home-main *{
+    /*    padding-left: 0;
+        padding-right: 0;*/
+    padding: 0;
+    margin: 0;
+}
+.cumtom-font{
+    font-family: Pristina;
+}
+
+.videography-video{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.container-fluid{
+    text-align: center;
+}
+.topic{
+    margin: 2px 0 -20px 0;
+    font-family: Pristina;
+}
+.photography-album-name{
+    background-color: black;
+    color: white;
+    font-family: Pristina;
+    height: 50px;
+    margin-top: -50px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.videography-tile{
+    height: 40%;
+    width: 32%;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.videography-name{
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-top: -50px;
+    padding-top: 20px;
+}
+.contact-main-div{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+hr{
+    width: 100%;
+}
+.contact-details-main{
+    width: 100%;
+    /*margin-left: 10vw;*/
+}
+.contact-social-div{
+    width: 100%;
+    float: left;
+    display: inline;
+    margin: 10px 0 30px 0;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100vw;
+    height: auto;
+    margin: auto;
+}
+.album-view-main{
+    width: 100vw;
+    text-align: center;
+}
+.album-view-main #bottom-topic a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.about-name{
+    font-family: Pristina;
+    display: none;
+}
+.about-main-desc{
+    height: 150px;
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+.compliment-new{
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    right: 0;
+    top: 0;
+    margin-top: 240px;
+    margin-right: 50px;
+    background: #000;
+    font-size: medium;
+}
+.compliment-desc{
+    text-align: justify;
+}
+.custom-font{
+    font-family: Pristina;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*new css*/
+.customize > .left > div > a{
+    margin-right: 10px;
+}
+.customize{
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.customize > div{
+    width: 100%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.customize .fill{
+    margin: 10px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+}
+.photography-tile{
+    padding-right: 5px;
+    height: 85vh;
+    width: 250px;
+}
+.category{
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+/*mobile & tablet styles*/
+@media only screen and (max-width: 768px){
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    #menubar-left{
+        position: inherit;
+        width: 100%;
+    }
+    #logo{
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .img-responsive{
+        padding-top: 5px;
+        width: 100%;
+    }
+    #first-row{
+        left: 0%;
+        width: 100%;
+        height: 100%; 
+        padding-right: 0px; 
+        padding-left: 0px;
+    }
+    .navbar-fixed-top{
+        width: 100%;
+        color: #000000;
+    }         
+    #content{
+        width: 100%; 
+    }
+
+
+    .left > .left-social{
+        display: none;
+    }
+    .customize > div {
+        margin-left: 0px;
+    }
+
+    /*new css*/
+    .customize > .left > div > a{
+        margin-right: 10px;
+    }
+    .customize{
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    .customize > div{
+        width: 100%;
+        display: block;
+    }
+    .customize .fill{
+        margin: 0;
+        width: calc(100% - 5px);
+        height: calc(100% - 5px);
+    }
+    
+    .copyright{
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        font-size: 12px;
+        width: 100%;
+        height: 20px;
+        background-color: #000000;
+        z-index: 10;
+        padding-right: 15px;
+        margin-left: -10px;
+    }
+    .trigger{
+        margin-bottom: 30px;
+    }
+    .home-main{
+        margin: -10px;
+    }
+    #home-container-hide{
+        display: none;
+    }
+    .home-big-img{
+        width: 100%;
+        height: 50vw;
+    }
+    .home-small-img{
+        height: 30vw;
+    }
+    .container-fluid{
+        /*        padding-right: 5px;
+                padding-left: 5px;*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .photography-content{
+        width: 100%;
+        overflow: hidden;
+        overflow-x: visible;
+        height: 60%;
+    }
+    #studio-natural-des{
+        text-align: center;
+        font-size: 35px;
+    }
+    #desktop-view{
+        display: none;
+    }
+    #mobile-view{
+        display: block;
+    }
+
+    .topic{
+        font-size: 2em;
+    }
+    #container{
+        margin: -15px;
+    }
+    .compliment-main{
+        padding: 0;
+        margin: 0;
+    }
+    .compliment-main .comment{
+        margin-bottom: 20px;
+    }
+    .compliment-side-contect{
+        display: none;
+    }
+    .compliment-bottom-content{
+        display: block;
+        margin-top: 10px;
+    }
+    .compliment-new{
+        position: relative;
+        margin-top: 5vh;
+        margin-left: 40vw;
+    }
+    .contact-map{
+        width: 100%;
+        height: 50vw;
+        background-color: #adadad;
+    }
+    .album-tile{
+        float: left;
+        width: 50%;
+        height: 60vw;
+    }
+    .videography-tile{
+        float: left;
+        height: 75vh;
+        width: 100%;
+    }
+    .carousel{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .album-view-main #bottom-topic{
+        font-size: 1.5em;
+    }
+    .about-main{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-name{
+        display: block;
+    }
+    .about-main-desc{
+        height: auto;
+        text-align: center;
+        padding: 0;
+    }
+    .about-main-content{
+        /*padding: 0px 8vw 0 8vw;*/
+    }
+    .about-leader-img{
+        width: 60%;
+    }
+    #about-img-circle{
+        width: calc(100% - 10px);
+    }
+}
+
+/*desktop styles*/
+@media only screen and (min-width: 769px){
+    /*menu-bar*/
+    .navbar-default{
+        background-color: transparent;
+        border: none;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .navbar-fixed-top{
+        position: relative;
+        right: 75%;
+        left: 0px;
+        z-index: 1030;
+        /*float: left;*/
+        top: 53%;
+    }
+    #studio-natural-des{
+        padding-top: 10px;
+    }
+    #studio-natural-des-p{
+        line-height: 1;
+        font-size: 11px;
+    }
+    #menubar-left{
+        position: fixed;
+        width: 22%;
+    }
+
+    #logo{
+        padding-top: 15px;
+    }
+    .navbar-fixed-top{
+        width: 100%;
+    }                
+    #content{
+        width: 78%; 
+        /*overflow-x: hidden;*/
+    }
+
+    /*new css*/
+    .customize > div{
+        margin-left: 1%;
+        margin-right: 1%;
+        display: inline-block;
+    }
+    .customize > .left{
+        width: 22%;
+        position: fixed;
+        text-align: center;
+    }
+    .customize > .right{
+        width: 76%;
+        margin: 0 0 0 24.5%;
+    }
+    .customize .fill{
+        margin: 10px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+    }
+    .left > .left-social{
+        display: block;
+    }
+    .copyright{
+        position: fixed;
+        bottom: 0;
+        font-size: 12px;
+        width: 21%;
+        height: 20px;
+    }
+    #home-container-hide{
+        display: block;
+    }
+    .home-big-img{
+        height: 70vh;
+    }
+    .home-small-img{
+        height: 30vh;
+    }
+    .photography-content{
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+    }
+    #desktop-view{
+        display: block;
+    }
+    #mobile-view{
+        display: none;
+    }
+
+    .topic{
+        font-size: 3em;
+    }
+    .compliment-main{
+        /*margin-left: 30px;*/
+    }
+    .compliment-main .comment{
+        margin-bottom: 20px;
+    }
+    .compliment-side-contect{
+        display: block;
+    }
+    .compliment-bottom-content{
+        display: none;
+        margin-top: 10px;
+    }
+    .compliment-desc{
+        width: 70%;
+        display: inline-block;
+    }
+    .compliment-side-contect{
+        vertical-align: top;
+        display: inline-block;
+        width: 20%;
+    }
+
+    .contact-map{
+        width: 100%;
+        height: 20vw;
+        background-color: #adadad;
+    }
+    .album-tile{
+        height: 50%;
+        width: 33%;
+    }
+    .videography-tile{
+        float: left;
+        height: 40vh;
+        width: 33%;
+        margin-right: 2px;
+    }
+    .album-view-main #bottom-topic{
+        font-size: 2em;
+    }
+    .carousel{
+        width: 55vw;
+        margin-left: 22vw;
+    }
+    .about-main{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .about-name{
+        display: none;
+    }
+    .about-main-desc{
+        height: auto;
+        text-align: left;
+        padding: 0px 0px 0px 25px;
+    }
+    .about-main-content{
+        padding: 0px 2vw;
+        width: 100%;
+    }
+    .about-leader-img{
+        width: calc(100% + 15px);
+    }
+    #about-img-circle{
+        width: 65%;
+    }
+    button.trigger {
+        position: fixed;
+        width: 120px;
+        height: 70px;
+        top: 45vh;
+        right: 10px;
+        background: #000;
+        color: #fff;
+        border: 1px solid;
+    }   
+}
